@@ -1,5 +1,5 @@
 #![Dino Python Banner](https://github.com/sfiguero-git/Chromedino-Python-Automation/assets/35702217/c1eeaa88-5fd7-4581-8dbf-fa6aef3a824a)
-# Demo video (Python and Arduino versions): https://youtu.be/bz1vA3rF-I8
+## Demo video (Python and Arduino versions): https://youtu.be/bz1vA3rF-I8
 ## Running the script
 Download the **chromedino_auto.py** file and the images dir (which by default only includes one single image for this demo). To run the script use the following command:
 
