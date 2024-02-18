@@ -26,9 +26,8 @@ regionLimitatorX = 1001
 regionLimitatorY = 251     
 
 while(1): #The program runs until we press CTRL+C.   
-    try:
-        coordinate = pag.locateCenterOnScreen(image, confidence = confidenceVal, region=(0,0, 1920-regionLimitatorX, 1080-regionLimitatorY)) #pip install opencv-python
-          
+    try: #pip install opencv-python
+        coordinate = pag.locateCenterOnScreen(image, confidence = confidenceVal, region=(0,0, 1920-regionLimitatorX, 1080-regionLimitatorY))  
         if coordinate == None:
             time.sleep(0.046) 
             pag.press('space') 
